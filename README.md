@@ -12,11 +12,13 @@ Compatibility:        all
 
 
 Example:
-$ touch "foo bar"
-$ ./despace ./"foo bar"
-$ ls
-  foo_bar
- 
+
+```bash
+touch "foo bar"
+./despace ./"foo bar"
+ls
+foo_bar
+```
 
 Code:
 
