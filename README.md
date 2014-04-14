@@ -14,10 +14,10 @@ Compatibility:        all
 Example:
 
 ```bash
-touch "foo bar"
-./despace ./"foo bar"
-ls
-foo_bar
+$ touch "foo bar"
+$ ./despace ./"foo bar"
+$ ls
+> foo_bar
 ```
 
 Code:
