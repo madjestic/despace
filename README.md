@@ -1,4 +1,5 @@
-A small utility to replace spaces in a file-name with '_'
+# A small utility to replace spaces in a file-name with '_'
+
                 i.e. $ foo bar -> $ foo_bar
 Author: 		    Vladimir Lopatin
 Maintainer: 		Vladimir Lopatin
@@ -22,12 +23,14 @@ $ ls
 
 Code:
 
-> despace() {
->     if [ -e "$1" ]
->     then 
-> 	str="$1"
-> 	mv "$1" ${str// /_}
->     fi
-> }
+```bash
+despace() {
+    if [ -e "$1" ]
+    then 
+	str="$1"
+	mv "$1" ${str// /_}
+    fi
+}
 
-> despace "$1"
+despace "$1"
+```
