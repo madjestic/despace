@@ -10,7 +10,7 @@ By:	                  Vladimir Lopatin
 Keywords:             utility, rename files
 Compatibility:        all 
 
->
+
 Example:
 $ touch "foo bar"
 $ ./despace ./"foo bar"
