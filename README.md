@@ -10,12 +10,12 @@ By:	                  Vladimir Lopatin
 Keywords:             utility, rename files
 Compatibility:        all 
 
-
+>
 Example:
-> $ touch "foo bar"
-> $ ./despace ./"foo bar"
-> $ ls
-> > foo_bar
+$ touch "foo bar"
+$ ./despace ./"foo bar"
+$ ls
+  foo_bar
  
 
 Code:
